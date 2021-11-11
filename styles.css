@@ -45,10 +45,16 @@ img {
 /* HEDER QISM */
 
 .heder-menu {
-    background: #FFFFFF;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+     background: #FFFFFF;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
     justify-content: space-between;
     display: flex;
+
 }
 
 .heder-logo {
@@ -480,18 +486,22 @@ img {
 }
 
 .futer_block {
+    width: 1300px ;
+    height: 350px;
     display: flex;
     background-color: #191919;
 }
 
 .futer_block_1section {
+    margin-right: 100px;
     margin-left: 100px;
-    width: 348px;
+    width: 350px;
     height: 304px;
     color: #fff;
 }
 
 .text-bock {
+    margin-top: 10px;
     display: flex;
     color: #fff;
 }
@@ -504,12 +514,70 @@ img {
 }
 
 .futer_block_list {
+    margin-right: 87px;
     list-style-type: none;
     color: #fff;
 }
 
+.block-center_list h3 {
+    margin-bottom: 16px;
+}
+
+.block-center_list li {
+    margin: 8px 0;
+}
+
 .block-center_list {
-    width: 348px;
+    list-style-type: none;
+    width: 300px;
     color: #fff;
     margin-top: 50px;
 }
+
+.block-center_list a {
+    transition: all 0.2s  ease;
+    margin: 16px 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+.us_contact {
+    margin-bottom: 100px;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    color: #fff;
+}
+
+.us_contact a {
+    margin-right: 10px;
+    margin-top: 8px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.us_contact_img {
+    margin-right:  10px;
+}
+
+.block-center_list a:hover{
+    transition: all 0.2s  ease;
+    color: #00BAFC;
+}
+
+.img-us:hover {
+    color: #00BAFC;
+}
+
+.img-us:active {
+   opacity: 0.6 ;
+}
+
+.block-center_list a:active {
+    opacity: 0.6;
+}
+
+
+
+
